@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8"> 
         <title> Weather Dashboard</title>
+        <!-- Link to bootstrap-->
+        <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        <link rel = "stylesheet" type = "text/css" href="style.css">
     </head>
+
+    <body>
+        <!-- Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" "fa fa-fw fa-home">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Plots
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Max Temperature</a></li>
+                      <li><a class="dropdown-item" href="#">Humidity</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Cloudiness</a></li>
+                      <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Data</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- Headers-->
+        <h1> This is the landing page</h1>
+    </body>
 </html>

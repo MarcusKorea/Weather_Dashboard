@@ -1,52 +1,30 @@
-.header {
-    background-color: #CFDBD5;
-    padding: 20px;
-    margin: 20px;
-    text-align: center; 
+/* Index Page */
+.image{
+    width: 60%;
+    float: left;
 }
 
-.summary{
-    text-align: center;
-    background-color: lightgrey;
+.summary-text1{
+    font-size:medium;
 }
 
-.summary-text{
-    margin: 20px;
-    width: 70%;
-    margin-left: 100px;
-    background-color: lightseagreen;
-}
-
-.thumbnail{
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
-.vis-header{
-    text-align: center;
-    background-color: lightpink;
-}
-
-.body{
-    background-color: lightgrey;
+.visbox{
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;   
 }
 
 
 
-.pictures{
-    background-color: lightyellow;
 
+.images{
+    margin-right: 50px;
 }
 
-.pictures2{
-    background-color: lightskyblue;
-
-}
-
-
-
-/* Comparisons styles */
+/* Comparisons Page */
 
 .compheader{
     margin-left: 120px;

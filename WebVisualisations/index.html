@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"> 
-        <title> Comparisons</title>
+        <title> Weather Dashboard</title>
         <!-- Link to bootstrap-->
         <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
         <link rel = "stylesheet" type = "text/css" href="style.css">
@@ -40,49 +40,65 @@
           </div>
         </nav>
 
+        <!-- Summary -->
+        <div class = "container-fluid sumcontainer">
+          <div class = "row">
+              <div class = "col-md-7">
+                <div class ="box">
+                  <h1>Latitude Vs X</h1>
+                  <hr>
+                  <img src="assets/Fig1.png" alt="Latitude vs Max Temperature" class = "image">
+                  <p class = "summary-text1">The purpose of this project was to analyze how weather changes as you get close to the equator. We first pulled data from the OpenWeatherMap API,to assemble a dataset on over 500 cities.</p>
+                  <p class = "summary-text2">
+                    After assembling the dataset,we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, clouidness, wind speed, and humidity. This site provides the source data and visulations created as part of our analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                  </p>
+                </div>
+              </div>
 
-        <div class = "container">
-            <div class ="row">
-                <div class = "box">
-                    <h1  class ="compheader">Comparison: Latitude Vs X</h1>
+                <!-- Visualisations section -->
+              <div class = " col-sm-12 col-md-5">
+                <div class = "visbox">
+                  <!-- Header -->
+                  <div class ="visheader">
+                    <h2>Visualisations</h2>
                     <hr>
-                    <p class ="compp">Click on a plot to see an indepth analysis.</p>
-                    <div class = "images">
-                        <div class = "row">
-                            <div class = "col-lg-6">
-                                <h2 class = "comphead2">Vs Max Temperature</h2>
-                                <a href="maxtemp.html">
-                                    <img src="assets/Fig1.png" alt="Latitude Vs Max Temp"   width = 100%>
-                                </a>
-                            </div>
-                            <div class = "col-lg-6">
-                                <h2 class = "comphead2">Vs Humidity</h2>
-                                <a href="humidity.html">
-                                     <img src="assets/Fig2.png" alt="Latitude Vs Humidity" width = 100% >
-                                </a>
-                            </div>
+                  </div>
+                  <!-- Image Links -->
+                  <div class = "images">
+                    <div class = "row">
+                        <div class = "col-sm-12 col-md-6">
+                            <a href="maxtemp.html">
+                                <img src="assets/Fig1.png" alt="Latitude Vs Max Temp" width =100%>
+                            </a>
                         </div>
-        
-                        <div class = "row">
-                            <div class = "col-lg-6">
-                                <h2 class = "comphead2">Vs Cloudiness</h2>
-                                <a href="cloudiness.html">
-                                    <img src="assets/Fig3.png" alt="Latitude Vs Cloudiness"   width = 100%>
-                                </a>
-                            </div>
-                            <div class =" col-lg-6">
-                                <h2 class = "comphead2">Vs Wind Speed</h2>
-                                <a href="windspeed.html">
-                                     <img src="assets/Fig4.png" alt="Latitude Vs Wind Speed" width = 100% >
-                                </a>
-                            </div>
+                        <div class = " col-sm-12 col-md-6">
+                            <a href="humidity.html">
+                                 <img src="assets/Fig2.png" alt="Latitude Vs Humidity" width =100%>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class = "row">
+                        <div class = "col-sm-12 col-md-6">
+                            <a href="cloudiness.html">
+                                <img src="assets/Fig3.png" alt="Latitude Vs Cloudiness" width =100%>
+                            </a>
+                        </div>
+                        <div class ="col-sm-12 col-md-6">
+                            <a href="windspeed.html">
+                                 <img src="assets/Fig4.png" alt="Latitude Vs Wind Speed" width =100%>
+                            </a>
                         </div>
                     </div>
                 </div>
                 </div>
-            </div>
+                
+              </div>
+          </div>
+        </div>
+        
 
-           
+        <!-- To make dropdown work -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

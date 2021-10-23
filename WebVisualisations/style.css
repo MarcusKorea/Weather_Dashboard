@@ -1,0 +1,81 @@
+.header {
+    background-color: #CFDBD5;
+    padding: 20px;
+    margin: 20px;
+    text-align: center; 
+}
+
+.summary{
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.summary-text{
+    margin: 20px;
+    width: 70%;
+    margin-left: 100px;
+    background-color: lightseagreen;
+}
+
+.thumbnail{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.vis-header{
+    text-align: center;
+    background-color: lightpink;
+}
+
+.body{
+    background-color: lightgrey;
+}
+
+
+
+.pictures{
+    background-color: lightyellow;
+
+}
+
+.pictures2{
+    background-color: lightskyblue;
+
+}
+
+
+
+/* Comparisons styles */
+
+.compheader{
+    margin-left: 120px;
+    text-align: center;
+}
+.compp{
+    text-align: left;
+    margin-left: 20px;
+}
+.compheader3{
+    margin-left: 600px;
+}
+
+.images{
+    margin-left: 55px;
+}
+
+.box{
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.body{
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+}
+.comphead2{
+    text-align: center;
+}

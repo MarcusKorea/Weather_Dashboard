@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8"> 
+            <title> Latitude Vs Wind Speed</title>
+            <!-- Link to bootstrap-->
+            <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+            <link rel = "stylesheet" type = "text/css" href="style.css">
+        </head>
+    
+        <body class = "body">
+            <!-- Nav Bar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="index.html">Latitude</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class = "dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Data</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+    
+            <!-- Summary -->
+            <div class = "container-fluid sumcontainer">
+              <div class = "row">
+                  <div class = "col-md-7">
+                    <div class ="box">
+                      <h1 class = "vistitle">Latitude Vs Wind Speed</h1>
+                      <hr>
+                      <img src="assets/Fig4.png" alt="Latitude vs Max Temperature" class = "tempimage">
+                      <p class = "summary-text1">We can see that as the latitude approaches 0, the wind speends also approach 0. This suggests that wind speed may be related to latitude degree.</p>
+                    </div>
+                  </div>
+    
+                    <!-- Visualisations section -->
+                  <div class = " col-sm-12 col-md-5">
+                    <div class = "visbox">
+                      <!-- Header -->
+                      <div class ="visheader">
+                        <h2>Visualisations</h2>
+                        <hr>
+                      </div>
+                      <!-- Image Links -->
+                      <div class = "images">
+                        <div class = "row">
+                            <div class = "col-sm-12 col-md-6">
+                                <a href="maxtemp.html">
+                                    <img src="assets/Fig1.png" alt="Latitude Vs Max Temp" width =100%>
+                                </a>
+                            </div>
+                            <div class = " col-sm-12 col-md-6">
+                                <a href="humidity.html">
+                                     <img src="assets/Fig2.png" alt="Latitude Vs Humidity" width =100%>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class = "row">
+                            <div class = "col-sm-12 col-md-6">
+                                <a href="cloudiness.html">
+                                    <img src="assets/Fig3.png" alt="Latitude Vs Cloudiness" width =100%>
+                                </a>
+                            </div>
+                            <div class ="col-sm-12 col-md-6">
+                                <a href="windspeed.html">
+                                     <img src="assets/Fig4.png" alt="Latitude Vs Wind Speed" width =100%>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+              </div>
+            </div>
+            
+    
+            <!-- To make dropdown work -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </body>
+    </html>
+</html>

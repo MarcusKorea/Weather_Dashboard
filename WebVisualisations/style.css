@@ -15,14 +15,24 @@
     margin-left: 20px;
     margin-top: 40px;
     margin-bottom: 40px;   
+
+}
+
+.vistitle{
+    text-align: center;
+}
+
+.visheader{
+    text-align: center;
+}
+
+/* Highlight over image link */
+.visbox img:hover {
+    opacity: .5;
 }
 
 
 
-
-.images{
-    margin-right: 50px;
-}
 
 /* Comparisons Page */
 
@@ -39,7 +49,11 @@
 }
 
 .images{
-    margin-left: 55px;
+    margin-left: 50px;
+}
+
+.images img:hover {
+    opacity: .5;
 }
 
 .box{
@@ -56,4 +70,13 @@
 }
 .comphead2{
     text-align: center;
+}
+
+/* Max Temp Page */
+.tempimage{
+    width: 100%;
+}
+
+.temph1{
+    align-items: center;
 }

@@ -87,3 +87,6 @@
     overflow: auto;
     overflow-y: auto;
 }
+.dhead{
+    text-align: center;
+}

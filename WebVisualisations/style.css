@@ -80,3 +80,10 @@
 .temph1{
     align-items: center;
 }
+
+
+/* Data Page */
+.db{
+    overflow: auto;
+    overflow-y: auto;
+}

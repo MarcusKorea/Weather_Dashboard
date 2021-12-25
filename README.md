@@ -73,7 +73,7 @@ Small screen:
 
 Large screen:
 
-![comparison page large screen](Images/Comparison_Large.png)
+![comparison page large screen](Images/Comparison_large.png)
 
 Small screen:
 

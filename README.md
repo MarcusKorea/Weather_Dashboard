@@ -1,15 +1,12 @@
-# Web Design Homework - Web Visualisation Dashboard (Latitude)
+# Weather Visualisation Dashboard
 
 ## Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-![Images/landingResize.png](Images/landingResize.png)
-
-
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-For this homework we'll be creating a visualisation dashboard website using visualisations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
+We'll be creating a visualisation dashboard website using visualisations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualisations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
@@ -42,75 +39,71 @@ The website must, at the top of every page, have a navigation menu that:
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
 * Is responsive (using media queries). The nav must have similar behaviour as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
 
-Finally, the website must be deployed to GitHub pages.
-
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
-
+## **Using the Dashboard**:
+Use it like any other webpage!
+## **Languages used**:
+- HTML
+- CSS
+- Bootstrap Library was used
 ### Considerations
 
-* You may use the [weather data](Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
+* You may use the [weather data](Resources/cities.csv) or choose another dataset. 
 * You must use Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
-* You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
 * Be sure to use a CSS media query for the navigation menu.
 * Be sure your website works at all window widths/sizes.
-* Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
+
 
 ### Screenshots
 
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
+This section contains screenshots of each page that was built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
 
-#### <a id="landing-page"></a>Landing page
+### <a id="landing-page"></a>Landing page
 
 Large screen:
 
-![Landing page large screen](Images/landingResize.png)
+![Landing page large screen](Images/Landing_Large.png)
 
 Small screen:
 
-![Landing page small screen](Images/landing-sm.png)
+![Landing page small screen](Images/Landing_Small.png)
 ￼
+*Note the page scrolls down*
 
 #### <a id="comparisons-page"></a>Comparisons page
 
 Large screen:
 
-![comparison page large screen](Images/comparison-lg.png)
+![comparison page large screen](Images/Comparison_Large.png)
 
 Small screen:
 
-![comparison page small screen](Images/comparison-sm.png)
+![comparison page small screen](Images/Comparison_Small.png)
 
 #### <a id="data-page"></a>Data page
 
 Large screen:
 
-![data page large screen](Images/data-lg.png)
+![data page large screen](Images/Data_Large.png)
 
 
 Small screen:
 
-![data page small screen](Images/data-sm.png)
+![data page small screen](Images/Data_Small.png)
 
-#### <a id="visualisation-pages"></a>Visualisation pages
-
-You'll build four of these, one for each visualisation. Here's an example of one:
-
-Large screen:
-
-![visualize page large screen](Images/visualize-lg.png)
-
-Small screen:
-
-![visualize page small screen](Images/visualize-sm.png)
 
 #### <a id="navigation-menu"></a>Navigation menu
 
 Large screen:
-![nav menu large screen](Images/nav-lg.png)
+![nav menu large screen](Images/Navigation_Large.png)
 
 Small screen:
-![nav menu small screen](Images/nav-sm.png)
+![nav menu small screen](Images/Navigation_Small.png)
 
 ### Copyright
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+  
+
+
